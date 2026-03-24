@@ -1,0 +1,85 @@
+/* ── Pokemon Battle Game ── */
+
+h1 {
+  font-size: 1.6rem;
+  margin: 8px 0 20px;
+}
+
+button {
+  padding: 10px 28px;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 8px;
+  background: #6c5ce7;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #5a4bd1;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card {
+  border-radius: 12px;
+  padding: 8px 14px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.card img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.card-info {
+  text-align: left;
+}
+
+.card p {
+  margin: 2px 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.winner-card {
+  border: 2px solid gold;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.winner {
+  color: #27ae60;
+}
+
+.loser {
+  color: #e74c3c;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin: 4px 0;
+}
+
+h3 {
+  font-size: 0.9rem;
+  margin: 2px 0;
+}

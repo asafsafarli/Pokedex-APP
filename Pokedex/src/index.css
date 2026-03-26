@@ -113,28 +113,3 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
-
-.card {
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 10px;
-  margin: 10px;
-  width: 180px;
-  background: white;
-}
-
-.card img {
-  width: 120px;
-  height: 120px;
-  object-fit: contain;
-}
-
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.winner-card {
-  border: 3px solid gold;
-}
